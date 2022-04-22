@@ -1,0 +1,213 @@
+
+
+// .div-address {
+//     display: inline-flex;
+//     flex-direction: column;
+//     margin-right: 70px;
+// }
+
+// .address__contact {
+//     display: block;
+//     margin-top: 9px;
+//     color: rgba(255, 255, 255, 0.6);
+//     line-height: 1.71; 
+    
+//     &:hover,&:focus {
+    //         color: $accent-color;
+//     }
+// }
+
+// .address__link {
+//     color: $white-color;
+//     line-height: 1.71;
+
+//     &:hover,&:hover {
+//         color: $accent-color;
+//     }
+// }
+
+// .social-div {
+    //     display: inline-flex;
+    //     flex-direction: column;
+// }
+
+// .social__title {
+//     color: $white-color;
+//     font-style: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     line-height: 100%;
+//     vertical-align: top;
+// }
+
+// .join-us {
+//     display: inline-flex;
+//     flex-direction: column;
+//     margin-left: 93px;
+// }
+
+// .join-us__text {
+//     color: $white-color;
+//     margin-bottom: 20px;
+// }
+
+// .join-us__mail {
+//     width: 358px;
+//     height: 50px;
+//     margin-right: 12px;
+//     padding: 15px;
+//     color: rgba(255, 255, 255, 0.6);
+//     background-color: transparent;
+//     border: 1px solid rgba(255, 255, 255, 0.3);
+//     border-radius: 4px;
+//     font-size: 16px;
+//     line-height: 1.07;
+// }
+
+// .join-us__enter-mail {
+    //     display: flex;
+// }
+
+// .join-us__btn {
+//     width: 200px;
+//     height: 50px;
+//     padding-left: 29px;
+//     padding-right: 76px;
+//     color: rgba(255, 255, 255, 1); 
+//     background-color: rgba(33, 150, 243, 1);
+//     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+//     border: 1px solid $accent-color;
+//     border-radius: 4px;
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.6;
+//     letter-spacing: 0.06em;
+// }
+
+// .position-send-icon {
+//     position: relative;
+//     width: 200px;
+//     height: 50px;
+// }
+
+// .join-us__send-icon {
+//     position: absolute;
+//     top: 13px;
+//     right: 28px;
+//     z-index: 999;
+//     width: 24px;
+//     height: 24px;
+//     fill: $white-color;
+// }
+
+
+.container--footer {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.div-address {
+    display: flex;
+    flex-direction: column;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.address__contact {
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71; 
+
+    &:hover,&:focus {
+        color: $accent-color;
+    }
+}
+
+.address__link {
+    color: $white-color;
+    line-height: 1.71;
+
+    &:hover,&:hover {
+        color: $accent-color;
+    }
+}
+
+.social-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.social__title {
+    margin: 0 auto;
+}
+
+.social__title {
+    color: $white-color;
+    margin: 0 auto;
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.join-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-us__text {
+    color: $white-color;
+    margin: 0 auto 20px auto;
+}
+
+.join-us__mail {
+    width: 450px;
+    height: 50px;
+    margin-bottom: 20px; 
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.07;
+}
+
+.join-us__btn {
+    width: 200px;
+    height: 50px;
+    padding-left: 29px;
+    padding-right: 76px;
+    color: rgba(255, 255, 255, 1); 
+    background-color: rgba(33, 150, 243, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+}
+
+.position-send-icon {
+    display: flex;
+    margin: 0 auto;   
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+
+.join-us__send-icon {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    z-index: 999;
+    width: 24px;
+    height: 24px;
+    fill: $white-color;
+}

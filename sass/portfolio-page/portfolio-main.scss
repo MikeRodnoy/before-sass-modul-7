@@ -1,0 +1,126 @@
+@import "../utils/variables";
+@import "../base/_main-style";
+@import "../components/header";
+@import "../components/logo";
+@import "../components/footer";
+@import "../components/social-icon";
+
+.catalog-hidden-title {
+    position: absolute;
+    top: -99999999;
+    left: -99999999;
+}
+
+.catalog-filter {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-filter__item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.catalog-filter__btn {
+    padding: 6px 22px;
+    color: $tittle-text-color;
+    border: #f5f4fa;
+    border-radius: 4px;
+    font-family: Roboto,
+    sans-serif;
+    background-color: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.39;
+    text-align: center;
+
+    &:hover,&:focus {
+        background-color: $accent-color;
+        color: $white-color;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12); 
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 34px;
+}
+
+.catalog__item {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    &:nth-child(3n) {
+        margin-right: 0px;
+    }
+
+    &:nth-last-child(-n + 3) {
+        margin-bottom: 0px;
+    }
+}
+
+
+.catalog__title {
+    color: $tittle-text-color;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    padding-top: 20px;
+    padding-left: 24px;
+}
+
+.catalog__text {
+    color: $primary-text-color;
+    font-size: 16px;
+    line-height: 1.87;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+
+.product {
+    display: block;
+    border-bottom-style: solid;
+    border-color: #eeeeee;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.product__thumb {
+    position: relative;
+    overflow: hidden;
+    height: 294px;
+}
+
+.product__action {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translatey(100%);
+    opacity: 0;
+    transition: transform 250ms, $cubiec-bezier
+    opacity 250ms ;
+    background-color: rgba(33, 150, 243, 0.9);
+}
+
+.product:hover .product__action {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+.product__text {
+    padding: 63px 22px;
+    color: $white-color;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: left;
+    vertical-align: top;
+}

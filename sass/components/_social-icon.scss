@@ -1,0 +1,105 @@
+// .social-icon {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 16px;
+//     margin-bottom: 30px;
+// }
+
+// .social-icon--footer {
+//     margin-top: 20px;
+//     margin-bottom: 0px;
+// }    
+
+// .social-icon__item {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 44px;
+//     height: 44px;
+//     border-radius: 50%;
+
+//     &:hover,&:focus {
+//         transition: background-color 250ms var(--cubiec-bezier);
+//         background-color: $accent-color;
+//         fill: $white-color;
+//     }
+// }
+
+
+// .social-icon__item  {
+//     background-color: rgba(255, 255, 255, 0.1);
+// }
+
+// .social-icon__item:not(:last-child){
+//     margin-right: 10px;
+// }
+
+
+// .social-icon__element {
+//     width: 20px;
+//     height: 20px;
+//     margin-top: 6px;
+//     transition: fill 250ms var(--cubiec-bezier);
+//     fill: #afb1b8;
+// }
+
+// .social-icon__element--footer {
+//     fill: $white-color;
+// }
+
+// .social-icon__item:hover .social-icon__element {
+//     fill: $white-color;
+// }
+
+
+// footer
+
+.social-icon__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+
+    &:hover,&:focus {
+        transition: background-color 250ms $cubiec-bezier;
+        background-color: $accent-color;
+        fill: $white-color;
+    }
+}
+
+.social-icon__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-icon__item--footer {
+    background-color:rgba(255, 255, 255, 0.1);;
+    margin-bottom: 0;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.social-icon--footer {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.social-icon__element {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+    fill: #afb1b8;
+}
+
+.social-icon__element--footer {
+    fill: $white-color;
+}
+
